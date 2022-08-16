@@ -4,7 +4,7 @@ html, body {
 }
 body{
   background-color: white;
-  font-family: "Oswald";
+  font-family: "fantasy";
 }
 .gothic-one,.gothic-two, .vic-one, .vic-two, .roman, .romanesq{
   display: flex;
@@ -13,12 +13,13 @@ body{
  img{
   height: 250px;
   width: 250px;
+   border: 1px solid black;
 }
 div{
   padding-bottom: 75px;
 }
 nav{
-  background-color: #77a054;
+  background-color: #7a9263;
   margin: 0;
   margin-top:0;
   font-size: 36px;
@@ -26,4 +27,18 @@ nav{
 }
 a{
   color: black;
+  background-color: #77a054;
+  padding: 2 px;
+  text-decoration: none;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+a:hover{
+  background-color: white;
+}
+.stick{
+  position:fixed;
+  top:0;
+  width: 100%;
 }
